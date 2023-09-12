@@ -28,7 +28,7 @@ scenarios:
 ```
 Make sure to replace the target value with the appropriate API URL.
 
-## Step 3: Run the Test
+## Step 3: Run the Test (Optional: to check whether the program is finished or not)
 
 To run the test, use the following command:
 
@@ -49,9 +49,17 @@ These are two commands combined:
 
 - artillery report --output report.html report.json: This generates an HTML report based on the previously generated JSON report. The HTML report will be saved as "report.html."
 
-After executing these commands, you will have two report files: "report.json" in JSON format and "report.html" in HTML format. You can open the HTML report in your web browser to view the test results in a more detailed and readable format.
+## Step 5: Open the HTML Report in a Browser
 
-With these steps, you can effectively analyze the performance of your API and identify areas that may need optimization if necessary.
+After generating the HTML report, open the report in your web browser to view the test results in more detail. You can do this by following these steps:
+
+1. Open your web browser (such as Chrome, Firefox, or Safari).
+
+2. Open the HTML report by double-clicking the "report.html" file or using the "Open File" command in your browser.
+
+3. You will see the stress testing report displayed in your browser. The report will include graphs, tables, and statistics that detail the test results, including response times, failures, and other important information about your API's performance during the stress test.
+
+By opening the HTML report in your browser, you can analyze the test results more thoroughly and understand how your API handles the tested load during the stress test.
 
 ## Note
 The configuration provided is an artillery load or stress testing script used to assess the performance of an API. Here's an explanation of the configuration:

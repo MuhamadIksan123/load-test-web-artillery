@@ -1,0 +1,12 @@
+config:
+  target: "https://airportgap-stress-test.dev-tester.com/api"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      rampTo: 25
+
+scenarios:
+  - name: "Get first page of airports"
+    flow:
+      - get:
+          url: "/airports"

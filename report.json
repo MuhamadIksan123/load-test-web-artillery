@@ -1,0 +1,608 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.Get first page of airports": 900,
+      "vusers.created": 900,
+      "http.requests": 900,
+      "http.codes.526": 896,
+      "http.responses": 896,
+      "http.downloaded_bytes": 0,
+      "vusers.failed": 4,
+      "vusers.completed": 896,
+      "errors.ETIMEDOUT": 4
+    },
+    "rates": {
+      "http.request_rate": 16
+    },
+    "firstCounterAt": 1694505052796,
+    "firstHistogramAt": 1694505053127,
+    "lastCounterAt": 1694505115634,
+    "lastHistogramAt": 1694505115634,
+    "firstMetricAt": 1694505052796,
+    "lastMetricAt": 1694505115634,
+    "period": 1694505110000,
+    "summaries": {
+      "http.response_time": {
+        "min": 32,
+        "max": 2405,
+        "count": 896,
+        "p50": 45.2,
+        "median": 45.2,
+        "p75": 51.9,
+        "p90": 61,
+        "p95": 113.3,
+        "p99": 528.6,
+        "p999": 820.7
+      },
+      "vusers.session_length": {
+        "min": 87.1,
+        "max": 4377.2,
+        "count": 896,
+        "p50": 122.7,
+        "median": 122.7,
+        "p75": 147,
+        "p90": 497.8,
+        "p95": 1153.1,
+        "p99": 2416.8,
+        "p999": 3905.8
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 32,
+        "max": 2405,
+        "count": 896,
+        "p50": 45.2,
+        "median": 45.2,
+        "p75": 51.9,
+        "p90": 61,
+        "p95": 113.3,
+        "p99": 528.6,
+        "p999": 820.7
+      },
+      "vusers.session_length": {
+        "min": 87.1,
+        "max": 4377.2,
+        "count": 896,
+        "p50": 122.7,
+        "median": 122.7,
+        "p75": 147,
+        "p90": 497.8,
+        "p95": 1153.1,
+        "p99": 2416.8,
+        "p999": 3905.8
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.Get first page of airports": 45,
+        "vusers.created": 45,
+        "http.requests": 45,
+        "http.codes.526": 40,
+        "http.responses": 40,
+        "http.downloaded_bytes": 0,
+        "vusers.failed": 0,
+        "vusers.completed": 40
+      },
+      "rates": {
+        "http.request_rate": 8
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1694505052796,
+      "firstHistogramAt": 1694505053127,
+      "lastCounterAt": 1694505059961,
+      "lastHistogramAt": 1694505059931,
+      "firstMetricAt": 1694505052796,
+      "lastMetricAt": 1694505059961,
+      "period": "1694505050000",
+      "summaries": {
+        "http.response_time": {
+          "min": 34,
+          "max": 339,
+          "count": 40,
+          "p50": 46.1,
+          "median": 46.1,
+          "p75": 49.9,
+          "p90": 61,
+          "p95": 290.1,
+          "p99": 295.9,
+          "p999": 295.9
+        },
+        "vusers.session_length": {
+          "min": 109.4,
+          "max": 836.1,
+          "count": 40,
+          "p50": 125.2,
+          "median": 125.2,
+          "p75": 186.8,
+          "p90": 340.4,
+          "p95": 450.4,
+          "p99": 468.8,
+          "p999": 468.8
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 34,
+          "max": 339,
+          "count": 40,
+          "p50": 46.1,
+          "median": 46.1,
+          "p75": 49.9,
+          "p90": 61,
+          "p95": 290.1,
+          "p99": 295.9,
+          "p999": 295.9
+        },
+        "vusers.session_length": {
+          "min": 109.4,
+          "max": 836.1,
+          "count": 40,
+          "p50": 125.2,
+          "median": 125.2,
+          "p75": 186.8,
+          "p90": 340.4,
+          "p95": 450.4,
+          "p99": 468.8,
+          "p999": 468.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.526": 89,
+        "http.responses": 89,
+        "http.downloaded_bytes": 0,
+        "vusers.failed": 1,
+        "vusers.completed": 89,
+        "vusers.created_by_name.Get first page of airports": 90,
+        "vusers.created": 90,
+        "http.requests": 90,
+        "errors.ETIMEDOUT": 1
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1694505060001,
+      "firstHistogramAt": 1694505060001,
+      "lastCounterAt": 1694505069951,
+      "lastHistogramAt": 1694505069754,
+      "firstMetricAt": 1694505060001,
+      "lastMetricAt": 1694505069951,
+      "period": "1694505060000",
+      "summaries": {
+        "http.response_time": {
+          "min": 34,
+          "max": 309,
+          "count": 89,
+          "p50": 45.2,
+          "median": 45.2,
+          "p75": 53,
+          "p90": 58.6,
+          "p95": 71.5,
+          "p99": 301.9,
+          "p999": 301.9
+        },
+        "vusers.session_length": {
+          "min": 96.7,
+          "max": 2198.7,
+          "count": 89,
+          "p50": 125.2,
+          "median": 125.2,
+          "p75": 141.2,
+          "p90": 407.5,
+          "p95": 459.5,
+          "p99": 1556.5,
+          "p999": 1556.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 34,
+          "max": 309,
+          "count": 89,
+          "p50": 45.2,
+          "median": 45.2,
+          "p75": 53,
+          "p90": 58.6,
+          "p95": 71.5,
+          "p99": 301.9,
+          "p999": 301.9
+        },
+        "vusers.session_length": {
+          "min": 96.7,
+          "max": 2198.7,
+          "count": 89,
+          "p50": 125.2,
+          "median": 125.2,
+          "p75": 141.2,
+          "p90": 407.5,
+          "p95": 459.5,
+          "p99": 1556.5,
+          "p999": 1556.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.526": 124,
+        "http.responses": 124,
+        "http.downloaded_bytes": 0,
+        "vusers.failed": 1,
+        "vusers.completed": 124,
+        "vusers.created_by_name.Get first page of airports": 124,
+        "vusers.created": 124,
+        "http.requests": 124,
+        "errors.ETIMEDOUT": 1
+      },
+      "rates": {
+        "http.request_rate": 13
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1694505070010,
+      "firstHistogramAt": 1694505070065,
+      "lastCounterAt": 1694505079963,
+      "lastHistogramAt": 1694505079890,
+      "firstMetricAt": 1694505070010,
+      "lastMetricAt": 1694505079963,
+      "period": "1694505070000",
+      "summaries": {
+        "http.response_time": {
+          "min": 34,
+          "max": 797,
+          "count": 124,
+          "p50": 45.2,
+          "median": 45.2,
+          "p75": 50.9,
+          "p90": 56.3,
+          "p95": 63.4,
+          "p99": 539.2,
+          "p999": 550.1
+        },
+        "vusers.session_length": {
+          "min": 90.8,
+          "max": 3030.5,
+          "count": 124,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 138.4,
+          "p90": 314.2,
+          "p95": 1153.1,
+          "p99": 1652.8,
+          "p999": 2018.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 34,
+          "max": 797,
+          "count": 124,
+          "p50": 45.2,
+          "median": 45.2,
+          "p75": 50.9,
+          "p90": 56.3,
+          "p95": 63.4,
+          "p99": 539.2,
+          "p999": 550.1
+        },
+        "vusers.session_length": {
+          "min": 90.8,
+          "max": 3030.5,
+          "count": 124,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 138.4,
+          "p90": 314.2,
+          "p95": 1153.1,
+          "p99": 1652.8,
+          "p999": 2018.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Get first page of airports": 159,
+        "vusers.created": 159,
+        "http.requests": 159,
+        "http.codes.526": 159,
+        "http.responses": 159,
+        "http.downloaded_bytes": 0,
+        "vusers.failed": 1,
+        "vusers.completed": 159,
+        "errors.ETIMEDOUT": 1
+      },
+      "rates": {
+        "http.request_rate": 16
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1694505080035,
+      "firstHistogramAt": 1694505080056,
+      "lastCounterAt": 1694505089988,
+      "lastHistogramAt": 1694505089963,
+      "firstMetricAt": 1694505080035,
+      "lastMetricAt": 1694505089988,
+      "period": "1694505080000",
+      "summaries": {
+        "http.response_time": {
+          "min": 33,
+          "max": 528,
+          "count": 159,
+          "p50": 43.4,
+          "median": 43.4,
+          "p75": 51.9,
+          "p90": 61,
+          "p95": 290.1,
+          "p99": 327.1,
+          "p999": 333.7
+        },
+        "vusers.session_length": {
+          "min": 89.4,
+          "max": 3152.4,
+          "count": 159,
+          "p50": 117.9,
+          "median": 117.9,
+          "p75": 130.3,
+          "p90": 539.2,
+          "p95": 1022.7,
+          "p99": 1978.7,
+          "p999": 2725
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 33,
+          "max": 528,
+          "count": 159,
+          "p50": 43.4,
+          "median": 43.4,
+          "p75": 51.9,
+          "p90": 61,
+          "p95": 290.1,
+          "p99": 327.1,
+          "p999": 333.7
+        },
+        "vusers.session_length": {
+          "min": 89.4,
+          "max": 3152.4,
+          "count": 159,
+          "p50": 117.9,
+          "median": 117.9,
+          "p75": 130.3,
+          "p90": 539.2,
+          "p95": 1022.7,
+          "p99": 1978.7,
+          "p999": 2725
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Get first page of airports": 192,
+        "vusers.created": 192,
+        "http.requests": 192,
+        "http.codes.526": 189,
+        "http.responses": 189,
+        "http.downloaded_bytes": 0,
+        "vusers.failed": 0,
+        "vusers.completed": 189
+      },
+      "rates": {
+        "http.request_rate": 20
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1694505090010,
+      "firstHistogramAt": 1694505090069,
+      "lastCounterAt": 1694505099987,
+      "lastHistogramAt": 1694505099987,
+      "firstMetricAt": 1694505090010,
+      "lastMetricAt": 1694505099987,
+      "period": "1694505090000",
+      "summaries": {
+        "http.response_time": {
+          "min": 32,
+          "max": 547,
+          "count": 189,
+          "p50": 46.1,
+          "median": 46.1,
+          "p75": 53,
+          "p90": 61,
+          "p95": 80.6,
+          "p99": 347.3,
+          "p999": 347.3
+        },
+        "vusers.session_length": {
+          "min": 96,
+          "max": 2585.9,
+          "count": 189,
+          "p50": 125.2,
+          "median": 125.2,
+          "p75": 149.9,
+          "p90": 497.8,
+          "p95": 1153.1,
+          "p99": 2143.5,
+          "p999": 2416.8
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 32,
+          "max": 547,
+          "count": 189,
+          "p50": 46.1,
+          "median": 46.1,
+          "p75": 53,
+          "p90": 61,
+          "p95": 80.6,
+          "p99": 347.3,
+          "p999": 347.3
+        },
+        "vusers.session_length": {
+          "min": 96,
+          "max": 2585.9,
+          "count": 189,
+          "p50": 125.2,
+          "median": 125.2,
+          "p75": 149.9,
+          "p90": 497.8,
+          "p95": 1153.1,
+          "p99": 2143.5,
+          "p999": 2416.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Get first page of airports": 222,
+        "vusers.created": 222,
+        "http.requests": 222,
+        "http.codes.526": 222,
+        "http.responses": 222,
+        "http.downloaded_bytes": 0,
+        "vusers.failed": 1,
+        "vusers.completed": 222,
+        "errors.ETIMEDOUT": 1
+      },
+      "rates": {
+        "http.request_rate": 23
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1694505100026,
+      "firstHistogramAt": 1694505100035,
+      "lastCounterAt": 1694505109963,
+      "lastHistogramAt": 1694505109948,
+      "firstMetricAt": 1694505100026,
+      "lastMetricAt": 1694505109963,
+      "period": "1694505100000",
+      "summaries": {
+        "http.response_time": {
+          "min": 32,
+          "max": 2405,
+          "count": 222,
+          "p50": 44.3,
+          "median": 44.3,
+          "p75": 51.9,
+          "p90": 63.4,
+          "p95": 85.6,
+          "p99": 539.2,
+          "p999": 820.7
+        },
+        "vusers.session_length": {
+          "min": 90.5,
+          "max": 4377.2,
+          "count": 222,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 153,
+          "p90": 572.6,
+          "p95": 699.4,
+          "p99": 1353.1,
+          "p999": 3534.1
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 32,
+          "max": 2405,
+          "count": 222,
+          "p50": 44.3,
+          "median": 44.3,
+          "p75": 51.9,
+          "p90": 63.4,
+          "p95": 85.6,
+          "p99": 539.2,
+          "p999": 820.7
+        },
+        "vusers.session_length": {
+          "min": 90.5,
+          "max": 4377.2,
+          "count": 222,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 153,
+          "p90": 572.6,
+          "p95": 699.4,
+          "p99": 1353.1,
+          "p999": 3534.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Get first page of airports": 68,
+        "vusers.created": 68,
+        "http.requests": 68,
+        "http.codes.526": 73,
+        "http.responses": 73,
+        "http.downloaded_bytes": 0,
+        "vusers.failed": 0,
+        "vusers.completed": 73
+      },
+      "rates": {
+        "http.request_rate": 25
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1694505110039,
+      "firstHistogramAt": 1694505110049,
+      "lastCounterAt": 1694505115634,
+      "lastHistogramAt": 1694505115634,
+      "firstMetricAt": 1694505110039,
+      "lastMetricAt": 1694505115634,
+      "period": "1694505110000",
+      "summaries": {
+        "http.response_time": {
+          "min": 32,
+          "max": 536,
+          "count": 73,
+          "p50": 45.2,
+          "median": 45.2,
+          "p75": 50.9,
+          "p90": 61,
+          "p95": 66,
+          "p99": 320.6,
+          "p999": 320.6
+        },
+        "vusers.session_length": {
+          "min": 87.1,
+          "max": 3896.7,
+          "count": 73,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 153,
+          "p90": 550.1,
+          "p95": 1300.1,
+          "p99": 3072.4,
+          "p999": 3072.4
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 32,
+          "max": 536,
+          "count": 73,
+          "p50": 45.2,
+          "median": 45.2,
+          "p75": 50.9,
+          "p90": 61,
+          "p95": 66,
+          "p99": 320.6,
+          "p999": 320.6
+        },
+        "vusers.session_length": {
+          "min": 87.1,
+          "max": 3896.7,
+          "count": 73,
+          "p50": 122.7,
+          "median": 122.7,
+          "p75": 153,
+          "p90": 550.1,
+          "p95": 1300.1,
+          "p99": 3072.4,
+          "p999": 3072.4
+        }
+      }
+    }
+  ]
+}
